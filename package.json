@@ -1,0 +1,36 @@
+{
+  "name": "di-check-deps",
+  "version": "1.0.0",
+  "description": "Type utility to check whether your dependencies resolvers are not missing any dependencies at compile time.",
+  "main": "index.ts",
+  "scripts": {},
+  "keywords": [
+    "di",
+    "dependency injection",
+    "awilix",
+    "inversion of control",
+    "dependency inversion"
+  ],
+  "author": "Henrique Yuji Rossetti Inonhe <henriqueinonhe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriqueinonhe/di-check-deps.git",
+    "email": "henriqueinonhe@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henriqueinonhe/di-check-deps.git"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "4.x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
