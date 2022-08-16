@@ -1,9 +1,11 @@
 {
   "name": "di-check-deps",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Type utility to check whether your dependencies resolvers are not missing any dependencies at compile time.",
-  "main": "index.ts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npx tsc"
+  },
   "keywords": [
     "di",
     "dependency injection",
