@@ -1,6 +1,6 @@
 {
   "name": "di-check-deps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Type utility to check whether your dependencies resolvers are not missing any dependencies at compile time.",
   "main": "dist/index.js",
   "scripts": {
